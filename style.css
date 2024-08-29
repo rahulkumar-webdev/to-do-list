@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-image: url("real\ he.webp");
+    background-size: cover;
+background-repeat: no-repeat;
+
+}
+.div{
+    
+    height: 1000px;
+    width: 1000px;
+    animation: rotate  5s linear infinite ;
+    background-color: red;
+    background-image: url("real\ he.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    border-radius:50%;
+    border: 2px solid blue;
+    
+}
+
+
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);   
+     }
+   
+    100%{
+        transform: rotate(360deg);
+          
+    }
+   
+
+
+}
